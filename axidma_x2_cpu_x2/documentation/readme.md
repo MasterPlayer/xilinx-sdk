@@ -50,3 +50,7 @@ USB_RX -> PL_TX -> PL_RX -> USB_TX
 the current implementation of the program also allows you to independently transmit data in the following way:
 1) CPU0 : USB_RX -> PL_TX
 2) CPU1 : PL_RX -> USB_TX
+
+## Testing
+testing execute for board MYIR MYS-7z020-C-S. 
+Estimated speed is over 99% of theoretical throughput of axidma channels
